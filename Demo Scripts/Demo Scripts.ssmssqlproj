@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Demo Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="sqlfb.fsa.lab:FSA\ayun">
+          <Created>2023-11-03T19:49:00.3053928-04:00</Created>
+          <Type>SQL</Type>
+          <Server>sqlfb.fsa.lab</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>AutoDealershipDemo</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1 - s3_data_virt.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlfb.fsa.lab:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlfb.fsa.lab</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1 - s3_data_virt.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2 - partitioned_views.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlfb.fsa.lab:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlfb.fsa.lab</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2 - partitioned_views.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
