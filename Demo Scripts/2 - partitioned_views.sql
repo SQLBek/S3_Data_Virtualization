@@ -2,6 +2,8 @@
 -- 2 - partitioned_views.sql
 -- 
 -- Summary: 
+-- Showcase "partitioned views" with S3 Data Virtualization and
+-- Parquet files
 --
 -- Written By: Andy Yun
 -- Created On: 2023-11-01

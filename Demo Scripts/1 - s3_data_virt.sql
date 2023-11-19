@@ -2,10 +2,16 @@
 -- 1 - s3_data_virt.sql
 -- 
 -- Summary: 
+-- Show off S3 Data Virtualization against on-prem Pure Storage
+-- FlashBlade
 --
 -- Written By: Andy Yun
 -- Created On: 2023-11-01
 -- PASS Data Community Summit 2023 | Pure Storage Vendor Session
+--
+-- Note:
+-- Check S3 browser and delete prior 
+-- AllSales_Flat parquet files first
 -------------------------------------------------------------------*/
 USE AutoDealershipDemo;
 GO
@@ -91,7 +97,6 @@ GO
 
 -----
 -- Let's create an external table
--- Check S3 browser and delete any stale parquet files first
 -- 
 IF EXISTS(SELECT 1 FROM sys.external_tables WHERE name = 'AllSales_Flat')
 	DROP EXTERNAL TABLE parquet.AllSales_Flat
